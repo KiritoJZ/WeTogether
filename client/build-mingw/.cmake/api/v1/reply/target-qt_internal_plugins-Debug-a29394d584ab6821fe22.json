@@ -1,0 +1,64 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"qt6_add_plugin",
+			"qt_add_plugin",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"plugins/chat/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2679,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 2663,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 2666,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "chat::@e06ad642d9e5fb87a98c"
+		}
+	],
+	"id" : "qt_internal_plugins::@e06ad642d9e5fb87a98c",
+	"name" : "qt_internal_plugins",
+	"paths" : 
+	{
+		"build" : "plugins/chat",
+		"source" : "plugins/chat"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

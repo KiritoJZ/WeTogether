@@ -1,0 +1,71 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"apps/client-desktop/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "client-desktop_autogen_timestamp_deps::@f35d87737fa4b0be2e01"
+		}
+	],
+	"id" : "client-desktop_autogen::@f35d87737fa4b0be2e01",
+	"isGeneratorProvided" : true,
+	"name" : "client-desktop_autogen",
+	"paths" : 
+	{
+		"build" : "apps/client-desktop",
+		"source" : "apps/client-desktop"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-mingw/apps/client-desktop/CMakeFiles/client-desktop_autogen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-mingw/apps/client-desktop/CMakeFiles/client-desktop_autogen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-mingw/apps/client-desktop/client-desktop_autogen/timestamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

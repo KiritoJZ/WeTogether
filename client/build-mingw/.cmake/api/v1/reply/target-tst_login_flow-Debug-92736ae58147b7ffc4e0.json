@@ -1,0 +1,693 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tests/integration/tst_login_flow.exe"
+		},
+		{
+			"path" : "tests/integration/tst_login_flow.pdb"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"_add_executable",
+			"add_executable",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"_find_package",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"D:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+			"tests/integration/CMakeLists.txt",
+			"libs/network/CMakeLists.txt",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"libs/stores/CMakeLists.txt",
+			"libs/ui/CMakeLists.txt",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"D:/Work/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Test/Qt6TestDependencies.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Test/Qt6TestConfig.cmake",
+			"tests/CMakeLists.txt",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"D:/Work/Qt/6.9.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 600,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 5,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 6
+			},
+			{
+				"file" : 5,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 218,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 9
+			},
+			{
+				"file" : 4,
+				"parent" : 10
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 55,
+				"parent" : 11
+			},
+			{
+				"file" : 3,
+				"parent" : 12
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 13
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 9,
+				"parent" : 15
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 7,
+				"line" : 10,
+				"parent" : 17
+			},
+			{
+				"command" : 6,
+				"file" : 7,
+				"line" : 5,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 19
+			},
+			{
+				"file" : 5,
+				"parent" : 20
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 218,
+				"parent" : 21
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 22
+			},
+			{
+				"file" : 9,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 55,
+				"parent" : 24
+			},
+			{
+				"file" : 8,
+				"parent" : 25
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 61,
+				"parent" : 26
+			},
+			{
+				"file" : 16
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 6,
+				"parent" : 28
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 29
+			},
+			{
+				"file" : 5,
+				"parent" : 30
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 218,
+				"parent" : 31
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 32
+			},
+			{
+				"file" : 15,
+				"parent" : 33
+			},
+			{
+				"command" : 4,
+				"file" : 15,
+				"line" : 43,
+				"parent" : 34
+			},
+			{
+				"file" : 14,
+				"parent" : 35
+			},
+			{
+				"command" : 8,
+				"file" : 14,
+				"line" : 45,
+				"parent" : 36
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 137,
+				"parent" : 37
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 76,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 39
+			},
+			{
+				"file" : 11,
+				"parent" : 40
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 57,
+				"parent" : 41
+			},
+			{
+				"file" : 10,
+				"parent" : 42
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 43
+			},
+			{
+				"command" : 4,
+				"file" : 9,
+				"line" : 43,
+				"parent" : 24
+			},
+			{
+				"file" : 19,
+				"parent" : 45
+			},
+			{
+				"command" : 8,
+				"file" : 19,
+				"line" : 45,
+				"parent" : 46
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 137,
+				"parent" : 47
+			},
+			{
+				"command" : 6,
+				"file" : 12,
+				"line" : 76,
+				"parent" : 48
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 896,
+				"parent" : 49
+			},
+			{
+				"file" : 18,
+				"parent" : 50
+			},
+			{
+				"command" : 4,
+				"file" : 18,
+				"line" : 55,
+				"parent" : 51
+			},
+			{
+				"file" : 17,
+				"parent" : 52
+			},
+			{
+				"command" : 3,
+				"file" : 17,
+				"line" : 61,
+				"parent" : 53
+			},
+			{
+				"command" : 9,
+				"file" : 16,
+				"line" : 4,
+				"parent" : 28
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTCASE_BUILDDIR=\"D:/Workplace/WeTogether/client/build-mingw/tests/integration\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTCASE_SOURCEDIR=\"D:/Workplace/WeTogether/client/tests/integration\""
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_TESTLIB_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/Workplace/WeTogether/client/build-mingw/tests/integration/tst_login_flow_autogen/include"
+				},
+				{
+					"backtrace" : 55,
+					"path" : "D:/Workplace/WeTogether/client/libs/include"
+				},
+				{
+					"backtrace" : 56,
+					"path" : "D:/Workplace/WeTogether/client/tests/integration/../libs/core/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Workplace/WeTogether/client/libs/core/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Workplace/WeTogether/client/libs/network/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Workplace/WeTogether/client/libs/stores/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Workplace/WeTogether/client/libs/plugin-sdk/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Workplace/WeTogether/client/libs/ui/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/Work/Qt/6.9.1/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/Work/Qt/6.9.1/mingw_64/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/Work/Qt/6.9.1/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "D:/Work/Qt/6.9.1/mingw_64/include/QtTest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3,
+					3
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "network::@d574096a0fec64520e0e"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "core::@7bc883c3d40b22fbda52"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "plugin-sdk::@3976530e623ca0978cd6"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "stores::@da3a59bdc8848b5b5451"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "ui::@e7dcc633018364bb2d5a"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "tst_login_flow_autogen::@a40f6d277e0496dfeabf"
+		},
+		{
+			"id" : "tst_login_flow_autogen_timestamp_deps::@a40f6d277e0496dfeabf"
+		}
+	],
+	"id" : "tst_login_flow::@a40f6d277e0496dfeabf",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Test.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libs\\core\\libcore.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libs\\network\\libnetwork.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libs\\stores\\libstores.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libs\\plugin-sdk\\libplugin-sdk.dll.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "libs\\ui\\libui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Network.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Widgets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Gui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "D:\\Work\\Qt\\6.9.1\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "-lmpr",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 44,
+				"fragment" : "-luserenv",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "-ld3d11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "-ldxgi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "-ldxguid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "-ld3d12",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "tst_login_flow",
+	"nameOnDisk" : "tst_login_flow.exe",
+	"paths" : 
+	{
+		"build" : "tests/integration",
+		"source" : "tests/integration"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build-mingw/tests/integration/tst_login_flow_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "tests/integration/tst_login_flow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-mingw/tests/integration/tst_login_flow_autogen/timestamp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build-mingw/tests/integration/tst_login_flow_autogen/timestamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}
