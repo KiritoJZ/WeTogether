@@ -1,4 +1,20 @@
-#ifndef API_CLIENT_H
-#define API_CLIENT_H
+#pragma once
+#include <QNetworkReply>
+#include <QJsonObject>
 
-#endif // API_CLIENT_H
+class ApiClient : public QObject {
+    Q_OBJECT
+public:
+    explicit ApiClient(QObject *parent = nullptr);
+
+    void login(const QString &email, const QString &pwd);
+    void fetchFriends(const QString &token);
+
+signals:
+    void loginOK(const QString &token, const QJsonObject &user);
+    void loginFailed(const QString &msg);
+    void friendsReady(const QJsonArray &list);
+
+private:
+    QNetworkAccessManager *m_mgr;
+};

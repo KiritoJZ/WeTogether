@@ -5,4 +5,8 @@ set(CMAKE_AUTOMOC ON)
 find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
 
 add_executable(client-desktop src/main.cpp)
-target_link_libraries(client-desktop PRIVATE Qt6::Core Qt6::Widgets)
+target_link_libraries(client-desktop
+    PRIVATE
+    ui
+    Qt6::Core
+    Qt6::Widgets)

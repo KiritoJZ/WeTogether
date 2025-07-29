@@ -1,4 +1,0 @@
-plugin-sdk_autogen/timestamp: \
-	D:/Workplace/WeTogether/client/libs/plugin-sdk/CMakeLists.txt \
-	D:/Workplace/WeTogether/client/libs/plugin-sdk/src/plugin_manager.cpp \
-	D:/tools/vcpkg/downloads/tools/cmake-3.30.1-windows/cmake-3.30.1-windows-i386/bin/cmake.exe
