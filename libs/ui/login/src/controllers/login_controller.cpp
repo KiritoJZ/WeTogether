@@ -1,4 +1,4 @@
-#include "LoginController.h"
+#include "login_controller.h"
 #include <QRegularExpression>
 
 LoginController::LoginController(QObject *parent)

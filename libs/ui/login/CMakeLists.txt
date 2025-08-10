@@ -12,10 +12,10 @@ qt6_add_qml_module(ui_login
   VERSION 1.0
   SHARED
   SOURCES
-    src/controllers/LoginController.cpp
-    src/models/UserModel.cpp
-    include/controllers/LoginController.h
-    include/models/UserModel.h
+  src/controllers/login_controller.cpp
+  src/models/user_model.cpp
+    include/controllers/login_controller.h
+    include/models/user_model.h
   QML_FILES
     qml/views/LoginView.qml
     qml/components/LoginInput.qml

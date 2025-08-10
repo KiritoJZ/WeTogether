@@ -13,8 +13,8 @@ target_include_directories(StoresLib
 )
 
 target_sources(StoresLib PRIVATE
-    src/LoginStore.cpp
-    include/login/LoginStore.h
+    src/login_store.cpp
+    include/login/login_store.h
 )
 
 find_package(Qt6 REQUIRED COMPONENTS Core)

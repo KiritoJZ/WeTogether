@@ -1,7 +1,14 @@
 #pragma once
 #include <QObject>
 #include <QString>
-#include <network_global.h>
+
+#if defined(NETWORKLIB_STATIC)
+#  define NETWORK_EXPORT
+#elif defined(NETWORKLIB_BUILD)
+#  define NETWORK_EXPORT Q_DECL_EXPORT
+#else
+#  define NETWORK_EXPORT Q_DECL_IMPORT
+#endif
 
 class NETWORK_EXPORT GatewayConfig : public QObject {
     Q_OBJECT

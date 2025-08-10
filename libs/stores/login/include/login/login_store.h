@@ -2,7 +2,14 @@
 #include <QObject>
 #include "GatewayConfig.h"
 #include "HttpClient.h"
-#include "stores_login_globa.h"
+
+#if defined(STORESLIB_STATIC)
+#  define STORES_LOGIN_EXPORT
+#elif defined(STORESLIB_BUILD)
+#  define STORES_LOGIN_EXPORT Q_DECL_EXPORT
+#else
+#  define STORES_LOGIN_EXPORT Q_DECL_IMPORT
+#endif
 
 class STORES_LOGIN_EXPORT LoginStore : public QObject {
     Q_OBJECT

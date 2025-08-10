@@ -1,8 +1,15 @@
 #pragma once
 #include <QObject>
 #include <qqmlintegration.h>
-#include "ui_login_global.h"
-#include "login/LoginStore.h"
+#include "login/login_store.h"
+
+#if defined(UI_LOGIN_STATIC)
+#  define UI_LOGIN_EXPORT
+#elif defined(UI_LOGIN_BUILD)
+#  define UI_LOGIN_EXPORT Q_DECL_EXPORT
+#else
+#  define UI_LOGIN_EXPORT Q_DECL_IMPORT
+#endif
 
 class UI_LOGIN_EXPORT LoginController : public QObject
 {
