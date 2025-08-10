@@ -1,0 +1,5 @@
+#add_subdirectory(core)
+add_subdirectory(network)
+add_subdirectory(stores)
+#add_subdirectory(plugin-sdk)
+add_subdirectory(ui)

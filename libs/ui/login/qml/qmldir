@@ -1,0 +1,2 @@
+module Login
+LoginView 1.0 views/LoginView.qml

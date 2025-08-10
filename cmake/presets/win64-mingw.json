@@ -1,0 +1,49 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "win64-mingw",
+      "displayName": "Win64 + Qt 6.9.1 MinGW (Release)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build-mingw-release",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_PREFIX_PATH": "D:/Work/Qt/6.9.1/mingw_64/lib/cmake",
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++",
+        "CMAKE_TOOLCHAIN_FILE": "D:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-mingw-dynamic"
+      },
+      "environment": {
+        "PATH": "$penv{PATH}"
+      }
+    },
+    {
+      "name": "win64-mingw-debug",
+      "displayName": "Win64 + Qt 6.9.1 MinGW (Debug)",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build-mingw-debug",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "CMAKE_PREFIX_PATH": "D:/Work/Qt/6.9.1/mingw_64/lib/cmake",
+        "CMAKE_C_COMPILER": "gcc",
+        "CMAKE_CXX_COMPILER": "g++",
+        "CMAKE_TOOLCHAIN_FILE": "D:/tools/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_TARGET_TRIPLET": "x64-mingw-dynamic"
+      },
+      "environment": {
+        "PATH": "$penv{PATH}"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "win64-mingw",
+      "configurePreset": "win64-mingw"
+    },
+    {
+      "name": "win64-mingw-debug",
+      "configurePreset": "win64-mingw-debug"
+    }
+  ]
+}

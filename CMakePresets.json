@@ -1,0 +1,7 @@
+{
+  "version": 6,
+  "include": [
+    "client/cmake/presets/win64-mingw.json"
+  ],
+  "configurePresets": []
+}
